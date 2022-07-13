@@ -1,0 +1,24 @@
+.copyright{
+    color: var(--white);
+    text-align: center;
+    /* position: absolute;
+    bottom: -50px; */
+}
+
+.linkedIn{
+    position: absolute;
+    left: 400px;
+}
+
+.linkedIn a:hover{
+text-decoration: none;
+}
+
+.github{
+    position: absolute;
+    right: 400px;
+}
+
+.github a:hover{
+    text-decoration: none;
+}

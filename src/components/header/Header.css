@@ -1,0 +1,22 @@
+.header-container{
+    background-color: #000;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    list-style: none;
+    text-decoration: none;
+    z-index: 10;
+   
+}
+
+.header-container a:hover{
+text-decoration: none;
+}
+
+.header-icon{
+    color: var(--dark-orange);
+}
+
+.linkedin{
+    color: var(--white)
+}

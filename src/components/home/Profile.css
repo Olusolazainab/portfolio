@@ -1,0 +1,122 @@
+.profile-container{
+    width: 100vw;
+    height: 100vh;
+    color: var(--white)
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 100px;
+}
+
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url('../../../public/assets/Home/picture.png');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.profile-details-name{
+    /* position: absolute;
+    top: 43%; */
+    font-size: 24px;
+    font-family: 'Poppins SemiBold' sans-serif;
+}
+
+.primary-text{
+    color: var(--white);
+}
+
+.highlighted-text{
+    color: var(--dark-orange);
+}
+
+.profile-details-role h3{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.typical-text{
+    text-align: center;
+}
+
+.profile-role-tagline{
+    font-size: 19px;
+    font-family: 'Poppins Light';
+}
+.contact-me{
+    color: var(--dark-orange);
+    background: transparent;
+    
+}
+
+.projects{
+    font-size: 15px;
+}
+
+.projects:hover{
+    transform: translateY(-0.25em);
+}
+.highlighted-btn {
+    font-size: 15px;
+}
+.profile-options{
+    margin-top: 22px;
+    
+}
+.profile-options .highlighted-btn{
+    margin: 0 0 0 28px;
+   
+}
+
+.profile-options .highlighted-btn:hover{
+    background-color: cornsilk;
+    color: #111;
+    transform: translateY(-0.25em);
+}
+
+.name{
+    color: var(--real-white);
+    
+}
+@media screen and (max-width: 1110px){
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-options .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+
+@media screen and (max-width: 810px){
+  
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .profile-options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-options .profile-details-role {
+        text-align: center;
+    }
+}
+
