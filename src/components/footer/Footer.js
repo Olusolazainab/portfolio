@@ -10,7 +10,7 @@ const currentYear = new Date().getFullYear()
   return (
 
       <div className='footer-container mt-5 pt-5'>
-	<div className='d-flex justify-content-center'>
+	<div className='d-flex justify-content-center social'>
             <div className='m-3 mr-5 linkedIn'>
           <a href='https://www.linkedin.com/in/olusola-oluwani-154635127' target="_blank"> <span className='header-icon'><FaLinkedinIn /></span>  <span className='linkedin'>LinkedIn</span></a>
 			</div>

@@ -22,3 +22,25 @@ text-decoration: none;
 .github a:hover{
     text-decoration: none;
 }
+
+@media screen and (max-width: 1110px){
+    .github{
+        position: absolute;
+        right: 100px;
+    }
+    .linkedIn{
+        position: absolute;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .github{
+        position: absolute;
+        right: 50px;
+    }
+    .linkedIn{
+        position: absolute;
+        left: 50px;
+    }
+}

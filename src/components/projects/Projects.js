@@ -126,6 +126,7 @@ const Projects = () => {
 							</a>
 						</div>
 					</article>
+				
 				</div>
 			</section>
 		</Fade>

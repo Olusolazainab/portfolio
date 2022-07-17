@@ -17,7 +17,7 @@ const Profile = () => {
 
 			<div className='profile-details-name'>
 				<span className='primary-text'>
-					Hello, I'm <span className='name'>Oluwani Zaianb</span>
+					Hello, I'm <span className='name'>Oluwani Zainab</span>
 				</span>
 			</div>
 			<div className='profile-details-role'>
@@ -29,10 +29,10 @@ const Profile = () => {
 						/>
 					</h3>
 					<span className='profile-role-tagline'>
-						A React JS Front end Developer who specializes in building fast, beautiful and
-						responsive websites and we applications.
+						A ReactJS Front end Developer who specializes in building fast, beautiful and
+						responsive websites and web applications.
 					</span><br />
-				<span className=' d-flex justify-content-center'>Got Anything? &nbsp;<button  className='contact-me' onClick={()=> navigate('/contact')}>Contact me</button></span>
+				<span className=' d-flex justify-content-center got-anything'>Got Anything? &nbsp;<button  className='contact-me' onClick={()=> navigate('/contact')}>Contact me</button></span>
 				
 				</span>
 			</div>

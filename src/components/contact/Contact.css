@@ -46,7 +46,7 @@ width: 110%;
 .contact-option:hover{
     background: transparent;
     border-color: var(--dark-orange);
-    
+   text-decoration: none;
 }
 
 .contact-option-icon{
@@ -54,7 +54,7 @@ width: 110%;
     margin-bottom: 0.5rem;
 }
 
-.contact-option a{
+.contact-option{
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
@@ -63,6 +63,7 @@ width: 110%;
 .message{
     font-size: 1.2rem;
     color: var(--dark-orange);
+    
 }
 
 form{

@@ -61,7 +61,12 @@
 .contact-me{
     color: var(--dark-orange);
     background: transparent;
+    font-size: 19px;
     
+}
+
+.got-anything{
+    font-size: 19px;
 }
 
 .projects{
@@ -102,6 +107,10 @@
         padding: 11px 0;
         z-index: 700;
     }
+    .profile-role-tagline{
+        display: flex;
+    
+    }
 }
 
 
@@ -117,6 +126,10 @@
     }
     .profile-options .profile-details-role {
         text-align: center;
+    }
+    .profile-role-tagline{
+        display: flex;
+        
     }
 }
 
